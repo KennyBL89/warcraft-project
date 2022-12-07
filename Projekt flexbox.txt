@@ -1,0 +1,52 @@
+1. Setup html sa linkovima sa font awesome, css, favicon
+
+2. postaviti global styles i variables (var--)
+
+3. Krenuti od !--header--!
+ - u <header> napravimo dva <div>, 
+prvi da obuhvata čitav element, drugi unutar njega sa ostalim elementima,
+da mozemo koristiti flexbox stil, tj da prvi bude parrent a drugi children.
+sva
+ - za small screen, za pozadinu koristimo samo boju, za 100% screen
+stavimo sliku kao background sa linear gradient bojom pomoću @media screen
+
+4. Nastaviti na sljedeću sekciju, u ovom slučaju !-- About --!.
+ - napraviti <section> sa dva <div>
+ - u prvi <div> odraditi title, u drugi section-center sa
+istim class (koji će biti za global) i class za ovu sekciju (about-section)
+- u drugi <div> napraviti dva <article>, u prvi stavimo sliku u drugi text
+sa linkom ispod
+- u css stilizujemo za small i 100% screen sa @media
+
+5. Nastavljamo sa sljedećom sekcijom !-- Services--!
+ - napraviti dva div, jedan kao u prethodnom sa class title a drugi sa class
+section-center (global) i service-center
+ - u drugom napraviti tri articla koji će se sastojati od ikone, naslova i
+tekstom
+ - po želji urediti u css za small i big screen sa @media
+
+6. Sljedeći korak je !-- Featured--!
+ - ponovimo isto kao i prošlu sekciju, u svaki article, stavimo tri diva, 
+jedan sa slikom i tekstom, drugi za naslov i teskt, treći sa podacima
+ - u css za prvi div u article, gdje su slika i tekst, za class od div
+staviti poziciju relative a u tekst class staviti poziciju absolute da
+taj tekst možemo pozicirati unutar slike
+
+7. !-- Contacts --!
+ - napravimo div sa article (koji će biti title sa dva tekst elementa)
+i form koji će imati input email i button
+ - u css, za mali screen stilizovati elemente za form parent staviti flex 
+i po njemu pozicirati njegove children elemente
+- za veliki screen flex citavu sekciju i pozicirati form
+
+8. !-- Footer--! 
+ - napravimo footer sa class (section - global i footer)
+ - napravimo dva UL, prvi sa linkovima unutar stranice,
+durgi sa linkovima društvenih mreža
+ - na kraju stavimo paragraf sa podacima o copyright
+- stilizujemo u css po želji
+
+9. !--Navbar--! koji je u sklopu !--Header--!
+ - u <header> napravimo <nav> i u njega div sa class nav header unutar kojeg
+ubacimo logo u vidu img i <button>
+- zatim kopiramo linkove i icons iz footer-a

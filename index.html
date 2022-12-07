@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./slike/favicon.ico" type="image/x-icon" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css" />
+    <title>World of Warcraft || Basics project</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--------
+      HEADER
+     --------->
+    <header id="home">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- Nav header -->
+          <div class="nav-header">
+            <img src="./slike/logo.png" alt="" class="nav-logo" />
+            <button type="button" class="nav-toggle" id="nav-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <!-- end nav header -->
+          <!-- Nav links -->
+          <ul class="nav-links" id="nav-links">
+            <!-- 1 -->
+            <li><a href="#home" class="nav-link scroll-link">home</a></li>
+            <!-- 2 -->
+            <li><a href="#about" class="nav-link scroll-link">about</a></li>
+            <!-- 3 -->
+            <li>
+              <a href="#services" class="nav-link scroll-link">services</a>
+            </li>
+            <!-- 4 -->
+            <li>
+              <a href="#featured" class="nav-link scroll-link">featured</a>
+            </li>
+            <!-- 5 -->
+            <li>
+              <a href="#gallery" class="nav-link scroll-link">gallery</a>
+            </li>
+          </ul>
+          <!-- end of nav link-->
+          <!-- Nav icons -->
+          <ul class="nav-icons">
+            <!-- 1 -->
+            <li>
+              <a
+                href="https://www.facebook.com/login/"
+                class="nav-icon"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <!-- 2 -->
+            <li>
+              <a href="https://twitter.com/" class="nav-icon" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <!-- 3 -->
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                class="nav-icon"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- End of nav icons-->
+        </div>
+      </nav>
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero-banner">
+          <h1>learn everything about world of warcraft</h1>
+          <p>
+            World of Warcraft (WoW) is a massively multiplayer online
+            role-playing game (MMORPG) released in 2004 by Blizzard
+            Entertainment.
+          </p>
+          <a href="#featured" class="btn hero-btn scroll-link">
+            Explore Expansions</a
+          >
+        </div>
+      </div>
+    </header>
+    <!--------------
+      End of HEADER
+     --------------->
+
+    <!--------------
+      ABOUT section
+     --------------->
+    <section class="section" id="about">
+      <!-- title -->
+      <div class="section-title">
+        <h2>About <span>Warcraft</span></h2>
+      </div>
+      <!-- end of title -->
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img src="./slike/about-img.jpg" class="about-photo" alt="warcraft" />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <h3>Explore Azeroth</h3>
+          <p>
+            Azeroth is the name of the world in which the majority of the
+            Warcraft series is set. At its core dwells a slumbering world-soul,
+            the nascent spirit of a titan.
+          </p>
+          <p>
+            Long ago, it was invaded by the Old Gods, eldritch abominations from
+            the Void. When the Pantheon arrived, the titans imprisoned the Old
+            Gods deep beneath the earth.
+          </p>
+          <a
+            href="https://wowpedia.fandom.com/wiki/Azeroth"
+            target="_blank"
+            class="btn"
+            >Azeroth</a
+          >
+        </article>
+        <!-- end of about info -->
+      </div>
+    </section>
+    <!--------------------
+     End of ABOUT section
+     --------------------->
+
+    <!--------------
+      Faction service
+     --------------->
+    <section class="section services" id="services">
+      <!-- title -->
+      <div class="section-title">
+        <h2>Warcraft <span>factions</span></h2>
+      </div>
+      <!-- end of title -->
+      <!-- Section -->
+      <div class="section-center services-center">
+        <!-- 1 -->
+        <article class="service">
+          <a
+            href="https://wowpedia.fandom.com/wiki/Horde"
+            class="service-icon"
+            target="_blank"
+          >
+            <i class="fa-solid fa-khanda"></i>
+          </a>
+          <div class="service-info">
+            <h4 class="serice-title">Horde</h4>
+            <p class="service-text">
+              The Horde is made up of orcs, forsaken, tauren, trolls, blood
+              elves, and most recently, goblins.
+            </p>
+          </div>
+        </article>
+        <!-- 2 -->
+        <article class="service">
+          <a
+            href="https://wowpedia.fandom.com/wiki/Alliance"
+            class="service-icon"
+            target="_blank"
+          >
+            <i class="fa-brands fa-wolf-pack-battalion"></i>
+          </a>
+          <div class="service-info">
+            <h4 class="serice-title">Alliance</h4>
+            <p class="service-text">
+              Humans, night elves, dwarves, gnomes, draenei, and the savage
+              worgen make up the illustrious Alliance.
+            </p>
+          </div>
+        </article>
+        <!-- 3 -->
+        <article class="service">
+          <a
+            href="https://wowpedia.fandom.com/wiki/Pandaren"
+            class="service-icon"
+            target="_blank"
+          >
+            <i class="fa-solid fa-hand-fist"></i>
+          </a>
+          <div class="service-info">
+            <h4 class="serice-title">Pandaren</h4>
+            <p class="service-text">
+              The enigmatic pandaren are one of the most elusive races of
+              Azeroth. Hailing from Pandaria and the Wandering Isle.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!------------------------
+     end of Faction service
+     --------------------------->
+
+    <!-------------------
+     Featured expansions
+     --------------------->
+    <section class="section" id="featured">
+      <!-- Title -->
+      <div class="section-title">
+        <h2>Featured <span>expansions</span></h2>
+      </div>
+      <div class="section-center featured-center">
+        <!-- Vanilla wow -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./slike/wow-classic.jpg" alt="classic" class="tour-img" />
+            <p class="tour-date">23rd November 2004</p>
+          </div>
+          <div class="tour-info">
+            <h4>Vanilla wow</h4>
+            <p>
+              World of Warcraft (WoW) is a massively multiplayer online
+              role-playing game (MMORPG) released in 2004 by Blizzard
+              Entertainment. Set in the Warcraft fantasy universe, World of
+              Warcraft takes place within the world of Azeroth.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fa-regular fa-calendar"></i></span> Europe
+              </p>
+              <p>22m players</p>
+              <p>23$/month</p>
+            </div>
+          </div>
+        </article>
+        <!-- End of vanilla wow -->
+        <!-- TBC wow -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./slike/wow-bc.jpg" alt="classic" class="tour-img" />
+            <p class="tour-date">16th January 2007</p>
+          </div>
+          <div class="tour-info">
+            <h4>The Burning crusade</h4>
+            <p>
+              World of Warcraft: The Burning Crusade is the first expansion set
+              for the MMORPG World of Warcraft. It was released on January 16,
+              2007 at local midnight in Europe and North America, selling nearly
+              2.4 million copies on release day.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fa-regular fa-calendar"></i></span> Asia
+              </p>
+              <p>67m players</p>
+              <p>18$/month</p>
+            </div>
+          </div>
+        </article>
+        <!-- End of TBC wow -->
+        <!-- wotlk wow -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./slike/wow-wotlk.jpg" alt="classic" class="tour-img" />
+            <p class="tour-date">13th November 2008</p>
+          </div>
+          <div class="tour-info">
+            <h4>Wrath of the Lich King</h4>
+            <p>
+              It launched on November 13, 2008 and sold 2.8 million copies
+              within the first day, making it the fastest selling computer game
+              of all time released at that point. The game added a substantial
+              amount of new content into the game world.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fa-regular fa-calendar"></i></span> Africa
+              </p>
+              <p>5m players</p>
+              <p>12$/month</p>
+            </div>
+          </div>
+        </article>
+        <!-- End of wotlk wow -->
+        <!-- Cataclysm wow -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./slike/wow-cata.jpg" alt="classic" class="tour-img" />
+            <p class="tour-date">7th December 2010</p>
+          </div>
+          <div class="tour-info">
+            <h4>Cataclysm</h4>
+            <p>
+              Shortly after the announcement of the release date, on October 12,
+              2010, Blizzard implemented patch 4.0.1, which included the
+              overhaul of the game's playing systems.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span><i class="fa-regular fa-calendar"></i></span> America
+              </p>
+              <p>35m players</p>
+              <p>27$/month</p>
+            </div>
+          </div>
+        </article>
+        <!-- End of cataclysm wow -->
+      </div>
+      <div class="tour-btn">
+        <a
+          href="https://dotesports.com/wow/news/all-world-of-warcraft-expansions-in-order"
+          class="btn"
+          target="_blank"
+          >All expansions</a
+        >
+      </div>
+    </section>
+    <!-------------------
+     end of Featured expansions
+     --------------------->
+
+    <!--------------
+     Contact section
+     ---------------->
+    <section class="section contact" id="contact">
+      <div class="section-center contact-center">
+        <!-- contact title -->
+        <article class="contact-title">
+          <h3>Want to know latest news about WoW?</h3>
+          <p>Sign up for newsletter and stay up to date</p>
+        </article>
+        <!-- contact form -->
+        <form action="" class="contact-form">
+          <input
+            type="email"
+            name="email"
+            placeholder="your email"
+            class="form-control"
+          />
+          <button type="submit" class="btn-submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!---------------------
+     end of Contact section
+     ---------------------->
+
+    <!---------------------
+     Gallery section
+     ---------------------->
+    <section id="gallery">
+      <div class="gallery-center">
+        <!-- 1 -->
+        <article class="gallery-img-container">
+          <img src="./slike/illidan.jpg" alt="" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </article>
+        <!-- 2 -->
+        <article class="gallery-img-container">
+          <img src="./slike/night elf.png" alt="" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </article>
+        <!-- 3 -->
+        <article class="gallery-img-container">
+          <img src="./slike/orgr.jpg" alt="" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </article>
+        <!-- 4 -->
+        <article class="gallery-img-container">
+          <img src="./slike/sylvanas.jpg" alt="" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </article>
+        <!-- 5 -->
+        <article class="gallery-img-container">
+          <img src="./slike/hunter.jpg" alt="" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </article>
+        <!-- 6 -->
+        <article class="gallery-img-container">
+          <img src="./slike/undead.jpg" alt="" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </article>
+        <!-- 7 -->
+        <article class="gallery-img-container">
+          <img src="./slike/orc.jpg" alt="" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </article>
+        <!-- 8 -->
+        <article class="gallery-img-container">
+          <img src="./slike/karazhan.jpg" alt="" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+    <!---------------------
+     end of Gallery section
+     ---------------------->
+
+    <!---------------------
+     Footer section
+     ---------------------->
+    <footer class="section footer">
+      <!-- Links -->
+      <ul class="footer-links">
+        <!-- 1 -->
+        <li><a href="#home" class="footer-link scroll-link">home</a></li>
+        <!-- 2 -->
+        <li><a href="#about" class="footer-link scroll-link">about</a></li>
+        <!-- 3 -->
+        <li>
+          <a href="#services" class="footer-link scroll-link">services</a>
+        </li>
+        <!-- 4 -->
+        <li>
+          <a href="#featured" class="footer-link scroll-link">featured</a>
+        </li>
+        <!-- 5 -->
+        <li><a href="#gallery" class="footer-link scroll-link">gallery</a></li>
+      </ul>
+      <!-- Icons -->
+      <ul class="footer-icons">
+        <!-- 1 -->
+        <li>
+          <a
+            href="https://www.facebook.com/login/"
+            class="footer-icon"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook-f"></i
+          ></a>
+        </li>
+        <!-- 2 -->
+        <li>
+          <a href="https://twitter.com/" class="footer-icon" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <!-- 3 -->
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            class="footer-icon"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <!-- End of icons and links -->
+      <p class="copyright">
+        copyright &copy; Blizzard entertainment company
+        <span class="" id="date"></span> all rights reserved
+      </p>
+    </footer>
+    <!---------------------
+    end of Footer section
+    ---------------------->
+    <!-- JS -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
